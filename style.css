@@ -18,9 +18,24 @@ body .container {
 
 body .container .card {
   background-color: #252d37;
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   border-radius: 20px;
   color: white;
+  padding: 20px;
+}
+
+body .container .card h1 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+body .container .card p {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+body .container .card span {
+  background-color: #7c8798;
 }
 /*# sourceMappingURL=style.css.map */

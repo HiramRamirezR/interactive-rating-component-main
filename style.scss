@@ -2,6 +2,7 @@ $light-grey: hsl(217, 12%, 63%);
 $medium-grey: hsl(216, 12%, 54%);
 $dark-blue: hsl(213, 19%, 18%);
 $very-dark-blue: hsl(216, 12%, 8%);
+$orange: hsl(25, 97%, 53%);
 
 body {
   font-family: 'Overpass', sans-serif;
@@ -13,10 +14,22 @@ body {
     height: 100vh;
     .card {
       background-color: $dark-blue;
-      width: 300px;
-      height: 300px;
+      width: 350px;
+      height: 350px;
       border-radius: 20px;
       color: white;
+      padding: 20px;
+      h1 {
+        font-size: 25px;
+        font-weight: 700;
+      }
+      p {
+        font-size: 15px;
+        font-weight: 400;
+      }
+      span {
+        background-color: $medium-grey;
+      }
     }
   }
 }
