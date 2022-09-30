@@ -20,7 +20,7 @@ body .container .card {
   background-color: #252d37;
   width: 320px;
   height: 320px;
-  border-radius: 20px;
+  border-radius: 15px;
   color: white;
   padding: 20px;
 }
@@ -43,6 +43,7 @@ body .container .card .numbers {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  font-weight: 700;
 }
 
 body .container .card span {
@@ -60,5 +61,20 @@ body .container .card span {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+body .container .card .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .container .card .button a {
+  background-color: #fb7413;
+  text-decoration: none;
+  color: white;
+  width: 100%;
+  height: 50px;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
