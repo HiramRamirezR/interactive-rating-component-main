@@ -18,8 +18,8 @@ body .container {
 
 body .container .card {
   background-color: #252d37;
-  width: 350px;
-  height: 350px;
+  width: 320px;
+  height: 320px;
   border-radius: 20px;
   color: white;
   padding: 20px;
@@ -32,10 +32,33 @@ body .container .card h1 {
 
 body .container .card p {
   font-size: 15px;
-  font-weight: 400;
+  color: #7c8798;
+  line-height: 25px;
+}
+
+body .container .card .numbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 body .container .card span {
-  background-color: #7c8798;
+  background-color: #383c4d;
+  color: #959eac;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=style.css.map */

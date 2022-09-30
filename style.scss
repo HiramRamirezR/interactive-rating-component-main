@@ -14,8 +14,8 @@ body {
     height: 100vh;
     .card {
       background-color: $dark-blue;
-      width: 350px;
-      height: 350px;
+      width: 320px;
+      height: 320px;
       border-radius: 20px;
       color: white;
       padding: 20px;
@@ -25,10 +25,22 @@ body {
       }
       p {
         font-size: 15px;
-        font-weight: 400;
+        color: $medium-grey;
+        line-height: 25px;
+      }
+      .numbers {
+        display: flex;
+        justify-content: space-between;
       }
       span {
-        background-color: $medium-grey;
+        background-color: rgb(56, 60, 77);
+        color: $light-grey;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
     }
   }
