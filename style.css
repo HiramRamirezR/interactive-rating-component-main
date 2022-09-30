@@ -1,6 +1,6 @@
 body {
   font-family: 'Overpass', sans-serif;
-  background-color: #121417;
+  background-color: hwb(216 7% 91%);
 }
 
 body .container {
@@ -61,20 +61,43 @@ body .container .card span {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s;
 }
 
-body .container .card .button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+body .container .card .rating:hover {
+  background-color: #fb7413;
+  color: white;
+  cursor: pointer;
 }
 
-body .container .card .button a {
+body .container .card a {
   background-color: #fb7413;
   text-decoration: none;
   color: white;
   width: 100%;
-  height: 50px;
+  height: 45px;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
+  margin-top: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s;
+}
+
+body .container .card a:hover {
+  background-color: white;
+  color: #fb7413;
 }
 /*# sourceMappingURL=style.css.map */
