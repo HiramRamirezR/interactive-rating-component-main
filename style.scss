@@ -93,3 +93,21 @@ body {
     }
   }
 }
+
+/* JS */
+
+.hidden {
+  display: none;
+}
+
+.selected {
+  background-color: $orange;
+  color: white;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color .3s;
+}
