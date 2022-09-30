@@ -3,6 +3,7 @@ $medium-grey: hsl(216, 12%, 54%);
 $dark-blue: hsl(213, 19%, 18%);
 $very-dark-blue: hwb(216 7% 91%);
 $orange: hsl(25, 97%, 53%);
+$circles: rgb(56, 60, 77);
 
 body {
   font-family: 'Overpass', sans-serif;
@@ -33,8 +34,8 @@ body {
         justify-content: space-between;
         font-weight: 700;
       }
-      span {
-        background-color: rgb(56, 60, 77);
+      .circle {
+        background-color: $circles;
         color: $light-grey;
         width: 45px;
         height: 45px;
@@ -68,6 +69,26 @@ body {
       a:hover {
         background-color: white;
         color: $orange;
+      }
+      .back {
+        .backImageDiv {
+          display: flex;
+          justify-content: center;
+          margin-bottom: 10px;
+        }
+        .selection {
+          display: flex;
+          justify-content: center;
+          .textSelection {
+            background-color: $circles;
+            border-radius: 30px;
+            padding: 3px 15px;
+            color: $orange;
+          }
+        }
+        .textCentered {
+          text-align: center;
+        }
       }
     }
   }

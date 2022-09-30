@@ -46,7 +46,7 @@ body .container .card .numbers {
   font-weight: 700;
 }
 
-body .container .card span {
+body .container .card .circle {
   background-color: #383c4d;
   color: #959eac;
   width: 45px;
@@ -99,5 +99,35 @@ body .container .card a {
 body .container .card a:hover {
   background-color: white;
   color: #fb7413;
+}
+
+body .container .card .back .backImageDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 10px;
+}
+
+body .container .card .back .selection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .container .card .back .selection .textSelection {
+  background-color: #383c4d;
+  border-radius: 30px;
+  padding: 3px 15px;
+  color: #fb7413;
+}
+
+body .container .card .back .textCentered {
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
