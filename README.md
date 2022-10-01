@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](images/screenshot.jpg)
+![](./images/screenshot.png)
 
 ### Links
 
@@ -42,5 +42,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Hiram's portfolio](hiramramirezr.github.io/profile/)
+- Website - [Hiram's portfolio](https://hiramramirezr.github.io/profile/)
 - Frontend Mentor - [@HiramRamirezR](https://www.frontendmentor.io/profile/HiramRamirezR)
