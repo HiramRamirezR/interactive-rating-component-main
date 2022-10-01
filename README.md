@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/html-css-and-javascript-8X5edqLOQq/)
-- Live Site URL: [Add live site URL here](https://hr-interactive-rating-component.netlify.app/)
+- [Solution URL](https://www.frontendmentor.io/solutions/html-css-and-javascript-8X5edqLOQq/)
+- [Live Site URL](https://hr-interactive-rating-component.netlify.app/)
 
 ## My process
 
