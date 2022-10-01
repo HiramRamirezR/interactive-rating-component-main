@@ -8,9 +8,12 @@ const submit = document.querySelector('#submit')
 ratings.forEach((rating) => {
   rating.addEventListener('click', (e) => {
     numberSelection.textContent = e.currentTarget.innerText
+    for (let i = 0; i < ratings.length; i++) {
+      ratings[i].classList.remove('selected')
+      ratings[i].classList.add('circle')
+    }
     e.currentTarget.classList.remove('circle')
     e.currentTarget.classList.add('selected')
-    console.log('ok')
   })
 })
 
